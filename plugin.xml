@@ -54,14 +54,6 @@
     <header-file src="src/ios/PushPlugin.h"/>
 
     <framework src="PushKit.framework"/>
-
-    <podspec>
-      <!-- keep empty `config` object to prevent `cordova-common` install issues.-->
-      <config></config>
-      <pods use-frameworks="true">
-        <pod name="Firebase/Messaging" spec="~> 6.32.2" />
-      </pods>
-    </podspec>
   </platform>
 
   <platform name="windows">
